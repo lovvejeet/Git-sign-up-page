@@ -42,12 +42,14 @@
 main{
     display: grid;
     justify-content: center;
-    margin: 150px;
+    margin: 50px;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
 #forgotpass{
-    /* right: 0; */
-    margin-left: 65px;
+    margin-left: 99px;
+    font-size: 12px;
+    position: absolute;
+    float: right;
 }
 .logoImage{
     display: grid;
@@ -59,12 +61,12 @@ main{
     font-weight: var(--base-text-weight-light, 300);
     letter-spacing: -0.5px;
     display: block;
-    font-size: 2em;
+    
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    margin-left: 24px;
+    margin-left: 59px;
 }
 
 .userinput{
@@ -107,7 +109,7 @@ main{
     font-size: 14px;
     background-color: #f6f8fa;
     border: 2px solid #d0d7de; ;
-    border-top: 6px;
+    /* border-top: 6px; */
     border-radius: 6px 6px 6px 6px;
 }
 #userinpt,#passinpt{
@@ -168,18 +170,3 @@ a{
 
 }
 </style>
-
-<!-- <script>
-let form = document.getElementById('form00')
-form.addEventListner('submit'),(e)=> {
-    let userName = document.getElementById('userinpt').value
-    let userPass = document.getElementById('passinpt').value
-
-    //local storage
-
-    localStorage.setItem('userinpt',userName)
-    localStorage.setItem('passinpt',userPass)
-
-    alert('Your details are saved in localstorage!')
-}
-</script> -->
